@@ -8,7 +8,7 @@ def main():
 
 if __name__ == '__main__':
 #
-    sfrom mymath import fib, fib_l, fib_m
+    from mymath import fib, fib_l, fib_m
 
 def main():
     print(f'result of {fib.__name__}(10): {fib(10)}')
