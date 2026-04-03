@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# HEAD
 from scapy.all import *
 import pyshark
 import datetime
@@ -165,7 +165,7 @@ frm3.pack()
 
 # Loop
 root.mainloop()
-=======
+#
 from scapy.all import *
 import pyshark
 import datetime
@@ -332,4 +332,4 @@ frm3.pack()
 
 # Loop
 root.mainloop()
->>>>>>> 5b35e2acb6c822b159da4f4255f6e59dca6d2b62
+# 5b35e2acb6c822b159da4f4255f6e59dca6d2b62

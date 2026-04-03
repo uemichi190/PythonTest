@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# HEAD
 import pyshark
 # 例: Windowsの場合
 tshark_custom_path = r'C:\Program Files\Wireshark\tshark.exe'
@@ -11,7 +11,7 @@ print(cap[0])
 # LiveCaptureの場合
 capcap = pyshark.LiveCapture(interface='eth0', tshark_path=tshark_custom_path)
 print(capcap[0])
-=======
+#
 import pyshark
 # 例: Windowsの場合
 tshark_custom_path = r'C:\Program Files\Wireshark\tshark.exe'
@@ -24,4 +24,4 @@ print(cap[0])
 # LiveCaptureの場合
 capcap = pyshark.LiveCapture(interface='eth0', tshark_path=tshark_custom_path)
 print(capcap[0])
->>>>>>> 5b35e2acb6c822b159da4f4255f6e59dca6d2b62
+#s 5b35e2acb6c822b159da4f4255f6e59dca6d2b62

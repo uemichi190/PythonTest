@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# HEAD
 import pyshark
 
 # Specify the path to your capture file
@@ -25,7 +25,7 @@ finally:
     if 'cap' in locals() and cap:
         cap.close()
 
-=======
+#
 import pyshark
 
 # Specify the path to your capture file
@@ -52,4 +52,4 @@ finally:
     if 'cap' in locals() and cap:
         cap.close()
 
->>>>>>> 5b35e2acb6c822b159da4f4255f6e59dca6d2b62
+# 5b35e2acb6c822b159da4f4255f6e59dca6d2b62

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# HEAD
 def fib(n):
     if n == 0:
         return 0
@@ -24,7 +24,7 @@ def fib_m(n, memo=None):
         memo = {0: 0, 1: 1}
     if n not in memo:
         memo[n] = fib_m(n - 2, memo) + fib_m(n - 1, memo)
-=======
+#
 def fib(n):
     if n == 0:
         return 0
@@ -50,5 +50,5 @@ def fib_m(n, memo=None):
         memo = {0: 0, 1: 1}
     if n not in memo:
         memo[n] = fib_m(n - 2, memo) + fib_m(n - 1, memo)
->>>>>>> 5b35e2acb6c822b159da4f4255f6e59dca6d2b62
+# 5b35e2acb6c822b159da4f4255f6e59dca6d2b62
     return memo[n]
